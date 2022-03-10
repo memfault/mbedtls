@@ -17,6 +17,9 @@ LOCAL_LDFLAGS = ${MBEDTLS_TEST_OBJS} 		\
 		-lmbedx509$(SHARED_SUFFIX)	\
 		-lmbedcrypto$(SHARED_SUFFIX)
 
+# Add the root repo directory to search paths
+LOCAL_CFLAGS += -I../
+
 ifeq ($(shell uname -s),Linux)
 DLOPEN_LDFLAGS ?= -ldl
 else
