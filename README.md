@@ -9,6 +9,10 @@ Memfault mbedtls examples.
 
 Simple example showing how to post a single chunk to chunks.memfault.com.
 
+See the source here for the implementation:
+
+[programs/ssl/ssl_client1.c](programs/ssl/ssl_client1.c)
+
 To run the example, you'll need Make and a C compiler. On Ubuntu linux you might
 install this package:
 
