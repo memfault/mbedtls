@@ -1,3 +1,8 @@
+_**ARCHIVED! See https://github.com/memfault/mbedtls-example-client for updated
+implementation**_
+
+---
+
 # Memfault/mbedtls
 
 Fork of [ARMmbed/mbedtls](https://github.com/ARMmbed/mbedtls) for sharing
@@ -20,8 +25,8 @@ install this package:
 ❯ sudo apt install build-essential
 ```
 
-To compile and run the example program, run these commands from the root of the repository
-(be sure to update submodules first!):
+To compile and run the example program, run these commands from the root of the
+repository (be sure to update submodules first!):
 
 ```bash
 # build the test program
